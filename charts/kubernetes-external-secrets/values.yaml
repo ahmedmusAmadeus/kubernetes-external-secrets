@@ -12,6 +12,9 @@ crds:
 
 # Environment variables to set on deployment pod
 env:
+  AZURE_TENANT_ID: "d3bc2180-cb1e-40f7-b59a-154105743342"
+  AZURE_CLIENT_ID: "668a79de-1c78-4f12-aa5e-5d755257be32"
+  AZURE_CLIENT_SECRET: "89669663-ddde-4feb-86db-af9e629773ca"
   AWS_REGION: us-west-2
   AWS_DEFAULT_REGION: us-west-2
   POLLER_INTERVAL_MILLISECONDS: 10000  # Caution, setting this frequency may incur additional charges on some platforms
